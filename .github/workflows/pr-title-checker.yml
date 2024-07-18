@@ -1,11 +1,6 @@
 name: "pr-title-checker"
 
-on:
-  pull_request_target:
-    types:
-      - opened
-      - edited
-      - synchronize
+on: [pull_request]
 
 jobs:
   cog_check_job:
